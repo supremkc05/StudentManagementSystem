@@ -1,0 +1,68 @@
+.login_container{
+    -fx-background-color: white;
+}
+/*logo container*/
+.login_logo_container{
+    -fx-background-color: white;
+    -fx-alignment: center;
+}
+.login_logo_container Text{
+    -fx-fill: black;
+    -fx-font-size: 2em;
+}
+.signup_form_container{     /*changed from login_form_container to signup_form_container*/
+    -fx-alignment: left;
+    -fx-spacing: 10;
+    -fx-padding: 10;
+    -fx-border-radius: 8;
+}
+.signup_form_container .Label{
+    -fx-font-size: 2em;
+    -fx-font-weight: semi-bold;
+    -fx-font-family: sans-serif;
+}
+.signup_form_container .Label1{
+    -fx-font-size: 1.6em;
+    -fx-font-weight: semi-bold;
+    -fx-font-family: sans-serif;
+    -fx-font-style: italic;
+}
+.input_field{
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+}
+.signup_form_container .Button{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-pref-width: 400;
+    -fx-pref-height: 30;
+    -fx-font-size: 1.2em;
+    -fx-alignment: center;
+}
+.signup_form_container .Button:hover{
+    -fx-cursor: hand;
+}
+/*account selector check box*/
+.account_selector{
+    -fx-background-color:white;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+}
+.account_selector .Label{
+    -fx-text-fill: black;
+}
+.account_selector.arrow{
+    -fx-background-color: black;
+}
+#choice-box-popup-menu{
+    -fx-background-color: white;
+}
+/*choice label text*/
+#choice_prompt-text{
+    -fx-font-weight: 400;
+}
+.error_label{
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+}

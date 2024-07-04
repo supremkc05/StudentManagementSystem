@@ -3,16 +3,12 @@
 }
 /*logo container*/
 .login_logo_container{
-    -fx-background-color: black;
+    -fx-background-color: lightblue; /*colour milayera rakhna baki xa*/
     -fx-alignment: center;
 }
 .login_logo_container Text{
-    -fx-fill: white;
+    -fx-fill: black;
     -fx-font-size: 2em;
-}
-.login_logo_container FontAwesomeIconView{
-    -fx-fill: white;
-    -fx-font-size: 35;
 }
 /*account selector check box*/
 .account_selector{
@@ -36,10 +32,13 @@
 .login_form_container{
     -fx-alignment: left;
     -fx-spacing: 10;
+    -fx-padding: 4;
+    -fx-border-radius: 8;
 }
 .login_form_container .Label{
-    -fx-font-size: 1.5em;
+    -fx-font-size: 1em;
     -fx-font-weight: bold;
+    -fx-font-family: Arial;
 }
 .input_field{
     -fx-background-color: white;
@@ -60,4 +59,9 @@
 .error_label{
     -fx-text-fill: red;
     -fx-font-weight: bold;
+}
+.welcome_label{
+    -fx-font-size: 1.6em;
+    -fx-font-weight: bold;
+    -fx-font-style: roborto;
 }

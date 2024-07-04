@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="650.0" prefWidth="600.0" styleClass="dashboard" stylesheets="@../../Styles/Dashboard.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.studentmanagementsystem.studentmanagementsystem.Controllers.Students.DashboardConrtoller">
+   <Text fx:id="user_name" layoutX="32.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="username" text="Hi, Suprem" />
+   <Label fx:id="login_date" layoutX="536.0" layoutY="14.0" style="-fx-text-fill: black;" styleClass="date" stylesheets="@../../Styles/Dashboard.css" text="Today:2024/6/16" AnchorPane.rightAnchor="29.666666666666742" AnchorPane.topAnchor="14.0" />
+   <Text layoutX="57.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-field" text="Course materials and announcements" wrappingWidth="422.66675567626953" />
+   <HBox blendMode="DARKEN" layoutX="57.0" layoutY="157.0" prefHeight="156.0" prefWidth="601.0"
+         style="-fx-background-color: white;" styleClass="course-view" stylesheets="@../../Styles/Dashboard.css">
+      <AnchorPane prefHeight="147.0" prefWidth="253.0" styleClass="title_gradiant"
+                  stylesheets="@../../Styles/Dashboard.css">
+         <HBox.margin>
+            <Insets bottom="15.0" left="10.0"/>
+         </HBox.margin>
+         <Text layoutX="16.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title"
+               text="Advance Programming " wrappingWidth="220.66664632161462"/>
+         <Button fx:id="course_contents" layoutX="82.0" layoutY="42.0" mnemonicParsing="false" prefHeight="15.0"
+                 prefWidth="69.0" text="view"/>
+      </AnchorPane>
+      <AnchorPane prefHeight="133.0" prefWidth="249.0" styleClass="title_gradiant"
+                  stylesheets="@../../Styles/Dashboard.css">
+         <HBox.margin>
+            <Insets bottom="15.0" left="40.0"/>
+         </HBox.margin>
+         <Text layoutX="25.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title"
+               text="Theory of Computation" wrappingWidth="199.33333333333337"/>
+         <Button fx:id="theory_course_content" layoutX="82.0" layoutY="42.0" mnemonicParsing="false" prefHeight="15.0"
+                 prefWidth="69.0" text="view"/>
+      </AnchorPane>
+   </HBox>
+   <Text layoutX="57.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: roborto;" styleClass="text-field" text="Courses" />
+   <Text layoutX="64.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-field" text="Announcements" wrappingWidth="256.0" />
+   <HBox layoutX="57.0" layoutY="352.0" prefHeight="167.0" prefWidth="601.0">
+      <AnchorPane fx:id="announcement_page" prefHeight="180.0" prefWidth="616.0" styleClass="announcement">
+         <Text layoutX="19.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="titles" text="Deadlines and Submission" wrappingWidth="162.80339813232422" />
+         <Label layoutX="19.0" layoutY="51.0" prefHeight="17.0" prefWidth="199.0" styleClass="description" text="You have upcoming activites due." />
+         <Label layoutX="19.0" layoutY="30.0" prefHeight="17.0" prefWidth="35.0" style="-fx-background-color: #dddddd;" styleClass="dates" stylesheets="@../../Styles/Dashboard.css" text="July 1" />
+         <Text layoutX="19.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="dates" text="July 2" wrappingWidth="35.33333333333337" />
+         <Label layoutX="19.0" layoutY="92.0" prefHeight="17.0" prefWidth="378.0" styleClass="description" text="Your assignment group is updated and added in the course field." />
+      </AnchorPane>
+   </HBox>
+</AnchorPane>

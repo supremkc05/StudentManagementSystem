@@ -2,6 +2,7 @@ module com.studentmanagementsystem.studentmanagementsystem {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.base;
+    requires java.xml;
     //requires de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView;
     //requires org.apache.commons.csv;
 

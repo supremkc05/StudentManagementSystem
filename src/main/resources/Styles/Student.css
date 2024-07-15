@@ -4,7 +4,7 @@
 }
 .left_container{
     -fx-background-color: #ffffff;
-    -fx-background-radius: 5;
+    -fx-background-radius: 6;
     -fx-effect: dropshadow(three-pass-box, #AAAAAA, 5, 0, 0, 4);
 }
 /*title/ logo section*/
@@ -15,7 +15,7 @@
     -fx-padding: 10;
 }
 .little_container  FontAwesomeIconView{
-    -fx-fill: #132A13;
+    -fx-fill: #6967DF;
 }
 .little_container Text{
     -fx-text-fill: #132A13;
@@ -28,10 +28,10 @@
 }
 .menu_container Button{
     -fx-background-color: #ffffff;
-    -fx-border-color: #132A13;
+    -fx-border-color: #6967DF;
     /*-fx-border-radius: 5;*/
     -fx-alignment: center-left;
-    -fx-text-fill: #132A13;
+    -fx-text-fill: #000000;
     -fx-font-size: 1.1em;
     -fx-pref-width: 115;
     -fx-pref-height: 40;
@@ -40,21 +40,22 @@
 .menu_container Button:hover{
     -fx-cursor: hand;
 }
-.menu_container Button FontAwesomeIconView{
-    -fx-text-fill: #132A13;
-}
+/*.menu_container Button FontAwesomeIconView{*/
+/*    -fx-text-fill: #132A13;*/
+/*}*/
 .alt_menu_btn{
     -fx-pref-width: 115;
     -fx-pref-height: 40;
-    -fx-background-color: #132A13;
+    /*-fx-background-color: #132A13;*/
     -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(three-pass-box, #DDDDDD, 5, 0, 0, 6);
 }
-.alt_menu_btn FontAwesomeIconView{
-    -fx-fill: #ffffff;
-}
+/*.alt_menu_btn FontAwesomeIconView{*/
+/*    -fx-fill: #ffffff;*/
+/*}*/
 /*    report/suggestion box*/
 .report_container{
-    -fx-background-color: #EEFFEE;
+    -fx-background-color: #C2C1F0;
     -fx-background-radius: 10;
     -fx-padding: 10 0 10 0;
     -fx-alignment: center;
@@ -66,17 +67,18 @@
     }
 .report_container .Text {
 -fx-font-weight: bold;
-    -fx-fill: #132A13;
+    -fx-fill: black;
 }
 .report_container .Button{
     -fx-text-fill: #ffffff;
-    -fx-background-color: #132A13;
+    -fx-background-color: #6967DF;
     -fx-pref-width: 80;
+    -fx-effect: dropshadow(three-pass-box, #DDDDDD, 5, 0, 0, 6);
 }
 .report_container .Button:hover{
     -fx-cursor: hand;
 }
 /*    report/suggestion box*/
-.report_container FontAwesomeIconView{
-    -fx-fill: #ffffff;
-}
+/*.report_container FontAwesomeIconView{*/
+/*    -fx-fill: #ffffff;*/
+/*}*/

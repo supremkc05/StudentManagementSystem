@@ -1,0 +1,17 @@
+Index: src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/StudentController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.studentmanagementsystem.studentmanagementsystem.Controllers.Students;\r\n\r\nimport javafx.event.ActionEvent;\r\nimport javafx.fxml.Initializable;\r\nimport javafx.scene.control.Button;\r\n//import javafx.scene.control.Label;\r\n\r\nimport java.net.URL;\r\nimport java.util.ResourceBundle;\r\n\r\npublic class StudentController implements Initializable {\r\n\r\n    public Button Dashboard_btn;\r\n    public Button attendance_btn;\r\n    public Button profile_btn;\r\n    public Button logout_btn;\r\n    public Button Report_btn;\r\n    public Button Counselling_btn;\r\n    public Button Extracurricular_btn;\r\n\r\n    @Override\r\n    public void initialize(URL url, ResourceBundle rb){\r\n        //TODO\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/StudentController.java b/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/StudentController.java
+--- a/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/StudentController.java	(revision 8c61ea48e877a351cb7ad1232460682b3653c5e1)
++++ b/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/StudentController.java	(date 1720068238532)
+@@ -20,6 +20,5 @@
+ 
+     @Override
+     public void initialize(URL url, ResourceBundle rb){
+-        //TODO
+     }
+ }

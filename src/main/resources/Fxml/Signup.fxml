@@ -13,18 +13,18 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="539.0" prefWidth="613.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.studentmanagementsystem.studentmanagementsystem.Controllers.SignupController">
-   <VBox layoutY="-6.0" prefHeight="535.0" prefWidth="149.0" styleClass="login_logo_container" stylesheets="@../Styles/Signup.css">
-      <ImageView fx:id="img" fitHeight="108.0" fitWidth="116.0">
-         <Image url="@../Images/user-management.png" />
+<AnchorPane prefHeight="539.0" prefWidth="613.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.studentmanagementsystem.studentmanagementsystem.Controllers.SignupController">
+   <VBox layoutX="-10.0" prefHeight="561.0" prefWidth="167.0" style="-fx-background-color: #6967DF; -fx-background-radius: 11;" styleClass="login_logo_container" stylesheets="@../Styles/Signup.css">
+      <ImageView fitHeight="108.0" fitWidth="116.0">
+         <Image url="@../Images/logo.png" />
       </ImageView>
-      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SchholSync" wrappingWidth="121.28647232055664" />
+      <Text fill="#eeeeee" strokeType="OUTSIDE" strokeWidth="0.0" text="SchholSync" wrappingWidth="121.28647232055664" />
    </VBox>
-   <AnchorPane layoutX="144.0" layoutY="-1.0" prefHeight="454.0" prefWidth="445.0" styleClass="signup_form_container" stylesheets="@../Styles/Signup.css">
-      <Text layoutX="179.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Label" text="SIGNUP!" wrappingWidth="132.66666666666652" />
+   <AnchorPane layoutX="163.0" layoutY="-1.0" prefHeight="454.0" prefWidth="463.0" style="-fx-background-color: white;" styleClass="signup_form_container" stylesheets="@../Styles/Signup.css">
+      <Text fill="#6967df" layoutX="179.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Label" text="SIGNUP!" wrappingWidth="132.66666666666652" />
       <Text layoutX="157.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Label1" text="Enter Your Details." wrappingWidth="206.08984375" />
-      <HBox layoutX="10.0" layoutY="104.0" prefHeight="41.0" prefWidth="423.0" styleClass="signup_form_container">
-         <Label prefHeight="17.0" prefWidth="95.0" text="Phone Number ">
+      <HBox layoutX="10.0" layoutY="105.0" prefHeight="48.0" prefWidth="432.0" style="-fx-background-color: white;" styleClass="signup_form_container">
+         <Label prefHeight="17.0" prefWidth="101.0" text="Phone Number ">
             <HBox.margin>
                <Insets top="4.0" />
             </HBox.margin>
@@ -35,10 +35,10 @@
                <Insets top="4.0" />
             </HBox.margin>
          </Label>
-         <ChoiceBox fx:id="selector" prefHeight="28.0" prefWidth="118.0" styleClass="account_selector" />
+         <ChoiceBox fx:id="selector" prefHeight="28.0" prefWidth="121.0" styleClass="account_selector" />
       </HBox>
       <HBox layoutX="19.0" layoutY="74.0" prefHeight="41.0" prefWidth="415.0">
-         <Label prefHeight="17.0" prefWidth="60.0" text="FirstName">
+         <Label prefHeight="17.0" prefWidth="61.0" text="FirstName">
             <HBox.margin>
                <Insets top="4.0" />
             </HBox.margin>
@@ -48,9 +48,9 @@
                <Insets left="5.0" />
             </HBox.margin>
          </TextField>
-         <Label text="LastName">
+         <Label prefHeight="17.0" prefWidth="60.0" text="LastName">
             <HBox.margin>
-               <Insets left="5.0" right="4.0" />
+               <Insets left="5.0" right="4.0" top="4.0" />
             </HBox.margin>
          </Label>
          <TextField fx:id="lastname_field" styleClass="input_field" stylesheets="@../Styles/Signup.css">
@@ -60,10 +60,10 @@
          </TextField>
       </HBox>
    </AnchorPane>
-   <VBox layoutX="159.0" layoutY="141.0" prefHeight="375.0" prefWidth="423.0" styleClass="signup_form_container" stylesheets="@../Styles/Signup.css">
+   <VBox layoutX="167.0" layoutY="145.0" prefHeight="384.0" prefWidth="442.0" style="-fx-background-color: white;" styleClass="signup_form_container" stylesheets="@../Styles/Signup.css">
       <Label prefHeight="17.0" prefWidth="89.0" text="Choose Gender" />
-      <CheckBox fx:id="checkbox" mnemonicParsing="false" styleClass="choose_gender" text="male" />
       <CheckBox fx:id="checbox1" mnemonicParsing="false" text="female" />
+      <CheckBox fx:id="checkbox" mnemonicParsing="false" styleClass="choose_gender" text="male" />
       <CheckBox fx:id="checkbox2" mnemonicParsing="false" text="others" />
       <Label text="Email" />
       <TextField fx:id="email_field" styleClass="input_field" />
@@ -71,11 +71,11 @@
       <TextField fx:id="password_fill" styleClass="input_field" />
       <Label text="Confirm-Password" />
       <TextField fx:id="confirmpassword_fill" styleClass="input_field" />
-      <Button fx:id="signup_btn" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="31.0" prefWidth="411.0" styleClass="Button" text="Signup">
+      <Button fx:id="signup_btn" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="31.0" prefWidth="411.0" style="-fx-background-color: #6967DF; -fx-font-weight: bold;" styleClass="Button" text="Signup" textFill="white">
          <VBox.margin>
             <Insets />
          </VBox.margin>
       </Button>
-      <Label fx:id="error_lbl" styleClass="error_label" stylesheets="@../Styles/Signup.css" text="Error:" />
+      <Label fx:id="error_lbl" styleClass="error_label" stylesheets="@../Styles/Signup.css" />
    </VBox>
 </AnchorPane>

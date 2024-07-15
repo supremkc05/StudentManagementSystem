@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: white;" stylesheets="@../../Styles/Extra.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.studentmanagementsystem.studentmanagementsystem.Controllers.OtherActivitiesController">
+   <children>
+      <Label layoutX="203.0" layoutY="84.0" text="full name:" />
+      <TextField layoutX="271.0" layoutY="80.0" styleClass="input_field" stylesheets="@../../Styles/Extra.css" />
+      <Label layoutX="464.0" layoutY="84.0" text="student id:" />
+      <TextField layoutX="535.0" layoutY="80.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 5;" />
+      <Label layoutX="204.0" layoutY="117.0" text="Level:" />
+      <TextField layoutX="271.0" layoutY="112.0" styleClass="input_field" />
+      <Label layoutX="201.0" layoutY="155.0" style="-fx-font-weight: bold;" text="Choose to prticipate" />
+      <CheckBox layoutX="203.0" layoutY="181.0" mnemonicParsing="false" text="Dance" />
+      <CheckBox layoutX="203.0" layoutY="215.0" mnemonicParsing="false" text="Art">
+         <padding>
+            <Insets top="9.0" />
+         </padding>
+      </CheckBox>
+      <CheckBox layoutX="203.0" layoutY="198.0" mnemonicParsing="false" text="Singing">
+         <padding>
+            <Insets top="6.0" />
+         </padding>
+      </CheckBox>
+      <Button layoutX="389.0" layoutY="253.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="140.0" style="-fx-background-color: #6967DF; -fx-text-fill: white; -fx-font-weight: bold;" styleClass="Button" stylesheets="@../../Styles/Extra.css" text="Register">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="204.0" layoutY="38.0" mnemonicParsing="false" style="-fx-effect: dropshadow(three-pass-box, #DDDDDD, 1, 0, 0, 2);" text="Sports" />
+      <Button layoutX="271.0" layoutY="38.0" mnemonicParsing="false" style="-fx-background-color: #6967DF; -fx-effect: dropshadow(three-pass-box, #DDDDDD, 1, 0, 0, ); -fx-text-fill: white;" text="other activities" />
+      <Text layoutX="370.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-text-alignment: center; -fx-font-weight: bold;" styleClass="title_label" text="Register to participate">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="160.0" styleClass="main_menu_container" stylesheets="@../../Styles/Student.css">
+         <AnchorPane prefHeight="650.0" prefWidth="185.0" styleClass="left_container" stylesheets="@../../Styles/Student.css">
+            <VBox layoutY="119.33333333333333" prefHeight="239.0" prefWidth="160.0" styleClass="little_container" stylesheets="@../../Styles/Student.css" AnchorPane.topAnchor="0.0">
+               <ImageView fitHeight="57.0" fitWidth="62.0">
+                  <image>
+                     <Image url="@../../Images/user-management.png" />
+                  </image>
+               </ImageView>
+               <Text fill="#363636" strokeType="OUTSIDE" strokeWidth="0.0" text="SchoolSync" wrappingWidth="125.05334270000458" />
+               <VBox prefHeight="249.0" prefWidth="200.0" styleClass="main_container" stylesheets="@../../Styles/Student.css">
+                  <Button fx:id="Dashboard_btn" mnemonicParsing="false" styleClass="left_container" text="Dashboard" />
+                  <Button fx:id="Counselling_btn" mnemonicParsing="false" onAction="#councellingformclicked" styleClass="left_container" text="Councelling form" />
+                  <Button fx:id="Extracurricular_btn" mnemonicParsing="false" styleClass="left_container" text="Extra Curriculum" />
+                  <Line endX="52.62620544433594" endY="0.4142006039619446" startX="-100.0" />
+                  <Button fx:id="profile_btn" mnemonicParsing="false" style="-fx-background-color: #6967DF;" styleClass="alt_menu_btn" stylesheets="@../../Styles/Student.css" text="Profile" />
+                  <Button fx:id="logout_btn" mnemonicParsing="false" style="-fx-background-color: #6967DF;" stylesheets="@../../Styles/Student.css" text="Logout">
+                     <styleClass>
+                        <String fx:value="alt_menu_btn" />
+                        <String fx:value="Text" />
+                     </styleClass>
+                  </Button>
+               </VBox>
+            </VBox>
+            <VBox layoutX="40.0" layoutY="436.0" prefHeight="145.0" prefWidth="138.0" styleClass="report_container">
+               <Label prefHeight="34.0" prefWidth="153.0" styleClass="Label" text="Use this to report any error.">
+                  <font>
+                     <Font size="10.0" />
+                  </font>
+               </Label>
+               <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="Report Suggestion/bug?" wrappingWidth="137.859375" />
+               <Button fx:id="Report_btn" mnemonicParsing="false" styleClass="Button" text="Report" />
+            </VBox>
+         </AnchorPane>
+         <Accordion />
+      </VBox>
+   </children>
+</AnchorPane>

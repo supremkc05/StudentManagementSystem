@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" styleClass="report" stylesheets="@../../Styles/Report.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.studentmanagementsystem.studentmanagementsystem.Controllers.Students.ReportController">
+   <children>
+      <VBox layoutY="6.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="594.0" prefWidth="160.0" styleClass="main_menu_container" stylesheets="@../../Styles/Student.css">
+         <AnchorPane prefHeight="650.0" prefWidth="185.0" styleClass="left_container" stylesheets="@../../Styles/Student.css">
+            <VBox layoutY="119.33333333333333" prefHeight="239.0" prefWidth="160.0" styleClass="little_container" stylesheets="@../../Styles/Student.css" AnchorPane.topAnchor="0.0">
+               <ImageView fitHeight="57.0" fitWidth="62.0">
+                  <image>
+                     <Image url="@../../Images/user-management.png" />
+                  </image>
+               </ImageView>
+               <Text fill="#363636" strokeType="OUTSIDE" strokeWidth="0.0" text="SchoolSync" wrappingWidth="125.05334270000458" />
+               <VBox prefHeight="249.0" prefWidth="200.0" styleClass="main_container" stylesheets="@../../Styles/Student.css">
+                  <Button fx:id="Dashboard_btn" mnemonicParsing="false" styleClass="left_container" text="Dashboard" />
+                  <Button fx:id="Counselling_btn" mnemonicParsing="false" onAction="#councellingformclicked" styleClass="left_container" text="Councelling form" />
+                  <Button fx:id="Extracurricular_btn" mnemonicParsing="false" styleClass="left_container" text="Extra Curriculum" />
+                  <Line endX="52.62620544433594" endY="0.4142006039619446" startX="-100.0" />
+                  <Button fx:id="profile_btn" mnemonicParsing="false" style="-fx-background-color: #6967DF;" styleClass="alt_menu_btn" stylesheets="@../../Styles/Student.css" text="Profile" />
+                  <Button fx:id="logout_btn" mnemonicParsing="false" style="-fx-background-color: #6967DF;" stylesheets="@../../Styles/Student.css" text="Logout">
+                     <styleClass>
+                        <String fx:value="alt_menu_btn" />
+                        <String fx:value="Text" />
+                     </styleClass>
+                  </Button>
+               </VBox>
+            </VBox>
+            <VBox layoutX="40.0" layoutY="436.0" prefHeight="145.0" prefWidth="138.0" styleClass="report_container">
+               <Label prefHeight="34.0" prefWidth="153.0" styleClass="Label" text="Use this to report any error.">
+                  <font>
+                     <Font size="10.0" />
+                  </font>
+               </Label>
+               <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="Report Suggestion/bug?" wrappingWidth="137.859375" />
+               <Button fx:id="Report_btn" mnemonicParsing="false" styleClass="Button" text="Report" />
+            </VBox>
+         </AnchorPane>
+         <Accordion />
+      </VBox>
+      <Text layoutX="350.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-text-alignment: center;" styleClass="title_label" text="Register Complaint" wrappingWidth="176.00002034505206" />
+      <Label layoutX="229.0" layoutY="71.0" styleClass="title_label" text="Category" />
+      <ChoiceBox fx:id="category_select" layoutX="229.0" layoutY="88.0" prefHeight="29.0" prefWidth="167.0" styleClass="input_field" stylesheets="@../../Styles/Report.css" />
+      <Label layoutX="463.0" layoutY="71.0" styleClass="title_label" stylesheets="@../../Styles/Report.css" text="Complaint type" />
+      <ChoiceBox fx:id="category_select1" layoutX="450.0" layoutY="88.0" prefHeight="29.0" prefWidth="167.0" styleClass="input_field" stylesheets="@../../Styles/Report.css" />
+      <Label layoutX="229.0" layoutY="137.0" prefHeight="21.0" prefWidth="269.0" styleClass="title_label" text="Complaint/ Suggestion Box(max 500 words)" />
+      <TextArea layoutX="229.0" layoutY="158.0" prefHeight="145.0" prefWidth="421.0" styleClass="complain_box" stylesheets="@../../Styles/Report.css" />
+      <Button fx:id="submit_button" alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="395.0" layoutY="315.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="115.0" style="-fx-alignment: center; -fx-background-color: #6967DF;" styleClass="Button" stylesheets="@../../Styles/Report.css" text="Submit">
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+      </Button>
+   </children>
+</AnchorPane>

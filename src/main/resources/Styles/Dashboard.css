@@ -1,89 +1,20 @@
 .dashboard{
-    -fx-background-color: #DDDDDD;
+    -fx-background-color: #eeeeee;
 }
 .username{
-    -fx-font-size: 2.6em;
-    -fx-font-family: "Calibri Light";
+    -fx-font-size: 2em;
+    -fx-font-family: "Inter";
 }
 .date.label{
-    -fx-text-fill: #AAAAAA;
+    -fx-text-fill: #C2C1F0;
     -fx-font-size: 1.1em;
-    -fx-font-family: "Calibri Light";
+    -fx-font-family: "inter";
+    -fx-background-color: #eeeeee;
 }
 .text-field{
     -fx-font-size: 2em;
     -fx-font-family: "sans-serif";
     -fx-font-weight: extrabold;
 }
-/* course view */
-.course-view{
-    -fx-background-color: white;
-    -fx-border-color: #AAAAAA;
-    -fx-border-width: 1px;
-    -fx-border-radius: 5px;
-    -fx-padding: 10;
-    -fx-spacing: 10;
-}
-.course-view .title{
-    -fx-background-radius: 5;
-    -fx-alignment: certer;
-    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 10, 0, 0, 10);
-}
-.title.VBox {
-    -fx-background-color: #FFFFFF;
-    -fx-alignment: certer;
-    -fx-border-radius: 5;
-    -fx-border-color: #DDDDDD;
-    -fx-border-width: 1;
-}
-.title Text {
-    -fx-font-size: 1.5em;
-    -fx-font-family: "Calibri Light";
-    -fx-fill: #ffffff;
-    -fx-alignment: certer;
-}
-.title_gradiant{
-    -fx-border-radius: 5px;
-    -fx-background-radius: 5px;
-    -fx-background-color: linear-gradient(to right, #FFA07A, #FF6347);
-}
-.title_gradiant Text{
-    -fx-font-size: 1.5em;
-    -fx-font-family: "sans-serif";
-    -fx-fill: #black;
-    -fx-alignment: certer;
-    -fx-font-weight: bold;
-}
-.title_gradiant Button{
--fx-background-color: #dddddd;
-    -fx-text-fill: #black;
-    -fx-font-size: 1.5em;
-    -fx-font-family: "Calibri Light";
-    -fx-border-radius: 5px;
-    -fx-background-radius: 5px;
-    -fx-alignment: center;
-}
 
-/* announcement*/
-.announcement{
-    -fx-background-color: #FFFFFF;
-    -fx-border-color: #AAAAAA;
-    -fx-border-width: 1px;
-    -fx-border-radius: 5px;
-    -fx-padding: 10;
-    -fx-spacing: 10;
-}
-.announcement .titles {
-    -fx-font-size: 1em;
-    -fx-font-family: "sans-serif";
-    -fx-font-weight: bold;
-}
-.announcement.dates{
-    -fx-text-fill: red;
-    -fx-font-size: 1.1em;
-    -fx-font-family: "Calibri Light";
-}
-.announcement .description{
-    -fx-font-size: 1.6em;
-    -fx-font-family: "Calibri Light";
-}
+

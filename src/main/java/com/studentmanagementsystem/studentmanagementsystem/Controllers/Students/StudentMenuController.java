@@ -1,4 +1,3 @@
 package com.studentmanagementsystem.studentmanagementsystem.Controllers.Students;
-
-public class StudentMenuController {
+public class StudentMenuController  {
 }

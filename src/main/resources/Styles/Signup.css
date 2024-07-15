@@ -1,13 +1,15 @@
 .login_container{
     -fx-background-color: white;
 }
+
 /*logo container*/
 .login_logo_container{
-    -fx-background-color: white;
+    -fx-background-color: #6967DF;
     -fx-alignment: center;
+    -fx-border-radius: 11;
 }
 .login_logo_container Text{
-    -fx-fill: black;
+    -fx-fill: white;
     -fx-font-size: 2em;
 }
 .signup_form_container{     /*changed from login_form_container to signup_form_container*/
@@ -25,7 +27,6 @@
     -fx-font-size: 1.6em;
     -fx-font-weight: semi-bold;
     -fx-font-family: sans-serif;
-    -fx-font-style: italic;
 }
 .input_field{
     -fx-background-color: white;

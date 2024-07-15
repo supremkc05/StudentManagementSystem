@@ -1,0 +1,30 @@
+.Background{
+    -fx-background-color: white;
+}
+.header{
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+.header2{
+    -fx-font-weight: bold;
+    -fx-font-size: 2em;
+}
+.text{
+    -fx-font-size: 1.1em;
+}
+.line{
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 10, 0, 0, 0);
+}
+.input{
+    -fx-border-radius: 5;
+    -fx-border-color: black;
+    -fx-background-color: white;
+}
+.button3{
+    -fx-background-color: #6967DF;
+    -fx-text-fill: white;
+    -fx-font-size: 1.1em;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 10, 0, 0, 0);
+}

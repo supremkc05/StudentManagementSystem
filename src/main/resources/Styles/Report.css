@@ -1,7 +1,5 @@
 .report{
     -fx-background-color: white;
-    -fx-border-color: black;
-    -fx-border-radius: 5;
 }
 .Label{
     -fx-text-fill: black;
@@ -16,45 +14,29 @@
 .input_field{
     -fx-alignment: center;
 }
-
-/*account selector check box*/
-.account_selector{
-    -fx-background-color:white;
+.title_label{
+    -fx-font-size: 1em;
+    -fx-font-weight: semi-bold;
+    -fx-font-style:sans-serif;
+}
+.input_field{
+    -fx-border-radius: 6;
     -fx-border-color: black;
-    -fx-border-radius: 5;
-}
-.account_selector .Label{
-    -fx-text-fill: black;
-}
-.account_selector.arrow{
-    -fx-background-color: black;
-}
-#choice-box-popup-menu{
     -fx-background-color: white;
 }
-/*choice label text*/
-#choice_prompt-text{
-    -fx-font-weight: 400;
-}
-.input_field .complain_box{
+.complain_box{
     -fx-background-color: white;
     -fx-border-color: black;
     -fx-border-radius: 5;
-    -fx-pref-width: 100%;
-    -fx-pref-height: 100%;
-}
-.input_field .Label{
-    -fx-text-fill: black;
-    -fx-font-style: sans-serif;
-    -fx-font-weight: 1.4em;
 }
 .Button{
-    -fx-background-color: black;
+    -fx-background-color:  #6967DF;
     -fx-text-fill: white;
     -fx-pref-width: 110;
     -fx-pref-height: 30;
     -fx-font-size: 1em;
     -fx-alignment:center;
+    -fx-font-weight: bold;
 }
 .Button:hover{
     -fx-cursor: hand;

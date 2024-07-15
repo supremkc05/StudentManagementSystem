@@ -1,9 +1,13 @@
 package com.studentmanagementsystem.studentmanagementsystem.Controllers;
 
+import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.image.ImageView;
 
-public class SignupController {
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class SignupController implements Initializable {
     public ImageView img;
     public TextField phonenumber_fiels;
     public ChoiceBox selector;
@@ -17,4 +21,9 @@ public class SignupController {
     public TextField confirmpassword_fill;
     public Button signup_btn;
     public Label error_lbl;
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+
+    }
 }

@@ -1,6 +1,5 @@
 .anchor{
     -fx-background-color: white;
-    -fx-alignment: center;
 }
 .title_label{
     -fx-font-size: 1.5em;
@@ -9,26 +8,27 @@
 }
 .register_form_container{
     -fx-background-color: white;
-     -fx-spacing: 10;
+    -fx-spacing: 10;
     -fx-padding: 4;
     -fx-border-radius: 5;
     -fx-alignment: left;
 }
  .register_form_container .input_field{
     -fx-background-color: white;
-    -fx-pref-height: 35;
     -fx-border-color: black;
     -fx-border-radius: 5;
 }
-.Button{
-    -fx-background-color: black;
+.Button1{
+    -fx-background-color: #6967DF;
     -fx-text-fill: white;
     -fx-pref-width: 150;
     -fx-pref-height: 30;
     -fx-font-size: 1.2em;
     -fx-alignment: center;
+    -fx-font-weight: bold;
+    -fx-border-radius: 8;
 }
-.Button:hover{
+.Button1:hover{
     -fx-cursor: hand;
 }
 .team_names{
@@ -36,4 +36,9 @@
     -fx-border-color: black;
     -fx-border-radius: 5;
     -fx-pref-width: 100%;
+}
+.input_field{
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
 }

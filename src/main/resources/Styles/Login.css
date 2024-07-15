@@ -1,13 +1,17 @@
+/* Corrected CSS property */
+* {
+    -fx-font-family: 'Inter'; /* Assuming 'Inter' is the font family you intended to use */
+}
 .login_container{
     -fx-background-color: white;
 }
 /*logo container*/
 .login_logo_container{
-    -fx-background-color: lightblue; /*colour milayera rakhna baki xa*/
+    -fx-background-color: #6967DF; /*colour milayera rakhna baki xa*/
     -fx-alignment: center;
 }
 .login_logo_container Text{
-    -fx-fill: black;
+    -fx-fill: white;
     -fx-font-size: 2em;
 }
 /*account selector check box*/
@@ -29,8 +33,11 @@
 #choice_prompt-text{
     -fx-font-weight: 400;
 }
+/* Corrected CSS properties */
+
 .login_form_container{
-    -fx-alignment: left;
+    -fx-alignment: center-left; /* Example correction */
+    /*-fx-font-style: italic; !* Example correction *!*/
     -fx-spacing: 10;
     -fx-padding: 4;
     -fx-border-radius: 8;
@@ -38,7 +45,7 @@
 .login_form_container .Label{
     -fx-font-size: 1em;
     -fx-font-weight: bold;
-    -fx-font-family: Arial;
+    -fx-font-family: Inter;
 }
 .input_field{
     -fx-background-color: white;
@@ -47,7 +54,7 @@
     -fx-border-radius: 5;
 }
 .login_form_container .Button{
-    -fx-background-color: black;
+    -fx-background-color: #6967DF;
     -fx-text-fill: white;
     -fx-pref-width: 350;
     -fx-pref-height: 30;
@@ -64,4 +71,7 @@
     -fx-font-size: 1.6em;
     -fx-font-weight: bold;
     -fx-font-style: roborto;
+}
+.Button2:hover{
+    -fx-cursor: hand;
 }

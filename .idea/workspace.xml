@@ -4,40 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f965a2ce-3d44-4701-8c4b-9bbe54af55dd" name="Changes" comment="changed xa hai aali aali">
-      <change afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Admin/AdminMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/SignupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/CouncellingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/DashboardConrtoller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/ExtraCurricularActivitiesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/ReportController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/StudentMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/CouncellingForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/Dashboard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/ExtraCurricular.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/Report.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/student.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/user-management.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Styles/Dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Styles/Extra.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Styles/Report.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Styles/Signup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Styles/Student.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f965a2ce-3d44-4701-8c4b-9bbe54af55dd" name="Changes" comment="students panal half done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/ExtracurriculumController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/Questioncontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Profile.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/QuestionForm.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Styles/profile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/SignupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/SignupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/CouncellingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/CouncellingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/DashboardConrtoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/DashboardConrtoller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/ExtraCurricularActivitiesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/OtherActivitiesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/OtherActivitiesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/ReportController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Models/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Models/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Views/ViewsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Views/ViewsFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/AdminMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/AdminMenu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Student/StudentMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Signup.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Styles/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Styles/Login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Student/CouncellingForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/CouncellingForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Student/Dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/Dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Student/Extracurriculum.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/Extracurriculum.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Student/OtherActivities.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/OtherActivities.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Student/ReportSuggestion.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/ReportSuggestion.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Student/StudentMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/StudentMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Styles/Dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Styles/Dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Styles/Extra.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Styles/Extra.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Styles/Report.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Styles/Report.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Styles/Signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Styles/Signup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Styles/Student.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Styles/Student.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,15 +41,30 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="FxmlFile" />
         <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SHOW_RECENT_BRANCHES" value="false" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;supremkc05&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/supremkc05/StudentManagementSystem.git&quot;,
+    &quot;accountId&quot;: &quot;7ade5907-14ba-454e-b07b-4381936444be&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/StudentController.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -76,34 +85,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/supre/Desktop/javafx/StudentManagementSystem&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/supre/Desktop/javafx/StudentManagementSystem/src/main/java/com/studentmanagementsystem/studentmanagementsystem",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\supre\Desktop\javafx\StudentManagementSystem\src\main\java\com\studentmanagementsystem\studentmanagementsystem" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\supre\Desktop\javafx\StudentManagementSystem\src\main\resources\Images" />
       <recent name="C:\Users\supre\Desktop\javafx\StudentManagementSystem\src\main\resources\Fxml\Student" />
@@ -115,7 +127,6 @@
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-19" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.studentmanagementsystem.studentmanagementsystem.App" />
       <module name="StudentManagementSystem" />
       <method v="2">
@@ -126,8 +137,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -179,6 +190,27 @@
       <workItem from="1719330189836" duration="597000" />
       <workItem from="1719464766485" duration="133000" />
       <workItem from="1719933408196" duration="180000" />
+      <workItem from="1720068071033" duration="1588000" />
+      <workItem from="1720089595241" duration="1332000" />
+      <workItem from="1720317854212" duration="71000" />
+      <workItem from="1720585273807" duration="60000" />
+      <workItem from="1720586041545" duration="103000" />
+      <workItem from="1720586182249" duration="22000" />
+      <workItem from="1720672124905" duration="57000" />
+      <workItem from="1720673820160" duration="122000" />
+      <workItem from="1720674153367" duration="661000" />
+      <workItem from="1720923596709" duration="1893000" />
+      <workItem from="1720935873240" duration="9866000" />
+      <workItem from="1720947619503" duration="8020000" />
+      <workItem from="1720955684969" duration="253000" />
+      <workItem from="1720969602670" duration="64000" />
+      <workItem from="1720969677367" duration="45000" />
+      <workItem from="1720969733405" duration="56000" />
+      <workItem from="1720969798679" duration="1253000" />
+      <workItem from="1720972555469" duration="5672000" />
+      <workItem from="1720978271819" duration="4511000" />
+      <workItem from="1721010355863" duration="1050000" />
+      <workItem from="1721025128517" duration="15418000" />
     </task>
     <task id="LOCAL-00001" summary="changed xa hai aali aali">
       <option name="closed" value="true" />
@@ -188,7 +220,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718205767946</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed xa hai aali aali">
+      <option name="closed" value="true" />
+      <created>1720068124544</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720068124545</updated>
+    </task>
+    <task id="LOCAL-00003" summary="students panal half done">
+      <option name="closed" value="true" />
+      <created>1721025720554</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721025720554</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +255,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed xa hai aali aali" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed xa hai aali aali" />
+    <MESSAGE value="students panal half done" />
+    <option name="LAST_COMMIT_MESSAGE" value="students panal half done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -216,6 +265,12 @@
           <url>file://$PROJECT_DIR$/src/main/java/module-info.java</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Views/ViewsFactory.java</url>
+          <line>14</line>
+          <properties field="dashboardView" class="com.studentmanagementsystem.studentmanagementsystem.Views.ViewsFactory" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

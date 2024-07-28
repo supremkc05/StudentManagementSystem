@@ -17,6 +17,10 @@
    <Text layoutX="295.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Natural Language Processing and computer vision" wrappingWidth="164.471435546875" />
    <Rectangle arcHeight="15.0" arcWidth="9.0" fill="#c2c1f0" height="44.0" layoutX="64.0" layoutY="352.0" stroke="#c2c1f0" strokeType="INSIDE" width="516.0" />
    <Text layoutX="86.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Questions" />
-   <Button fx:id="viewbtn" layoutX="510.0" layoutY="362.0" mnemonicParsing="false" onAction="#viewbtnclicked" style="-fx-background-color: #c2c1f0; -fx-underline: true;" text="view" />
+
+   <Button fx:id="viewbtn" layoutX="510.0" layoutY="362.0" mnemonicParsing="false" onAction="#viewbtnclicked" style="-fx-background-color: #c2c1f0; -fx-underline: true;" styleClass="viewbtn" stylesheets="@../../Styles/Dashboard.css" text="view" />
    <AnchorPane layoutX="6.0" layoutY="5.0" prefHeight="596.0" prefWidth="1.0" styleClass="anchor-pane" stylesheets="@../../Styles/Dashboard.css" />
+
+<!--   <Button fx:id="viewbtn" layoutX="510.0" layoutY="362.0" mnemonicParsing="false" onAction="#viewbtnclicked" style="-fx-background-color: #c2c1f0; -fx-underline: true;" text="view" />-->
+
 </AnchorPane>

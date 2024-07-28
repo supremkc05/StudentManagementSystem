@@ -18,8 +18,11 @@
 /*    -fx-fill: #6967DF;*/
 /*}*/
 .little_container Text{
-    -fx-text-fill: #132A13;
+    -fx-text-fill: black;
     -fx-font-size: 2em;
+}
+.little_container:hover{
+    -fx-cursor: hand;
 }
 /*Navigation section*/
 .main_container{
@@ -37,22 +40,23 @@
     -fx-pref-height: 40;
     -fx-effect: dropshadow(three-pass-box, #DDDDDD, 5, 0, 0, 6);
 }
-.menu_container Button:hover{
-    -fx-cursor: hand;
-}
+/*.menu_container Button:hover{*/
+/*    -fx-cursor: hand;*/
+/*}*/
 /*.menu_container Button FontAwesomeIconView{*/
 /*    -fx-text-fill: #132A13;*/
 /*}*/
 .alt_menu_btn{
     -fx-pref-width: 115;
-    -fx-pref-height: 40;
+    -fx-pref-height: 20;
     /*-fx-background-color: #132A13;*/
     -fx-text-fill: #ffffff;
     -fx-effect: dropshadow(three-pass-box, #DDDDDD, 5, 0, 0, 6);
 }
-/*.alt_menu_btn FontAwesomeIconView{*/
-/*    -fx-fill: #ffffff;*/
-/*}*/
+ .alt_menu_btn:hover{
+    -fx-cursor: hand;
+}
+
 /*    report/suggestion box*/
 .report_container{
     -fx-background-color: #C2C1F0;

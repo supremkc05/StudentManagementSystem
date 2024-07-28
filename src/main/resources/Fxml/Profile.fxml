@@ -12,7 +12,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="605.0" prefWidth="700.0" styleClass="Background" stylesheets="@../Styles/profile.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.studentmanagementsystem.studentmanagementsystem.Controllers.ProfileController">
+<AnchorPane prefHeight="605.0" prefWidth="720.0" styleClass="Background" stylesheets="@../Styles/profile.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.studentmanagementsystem.studentmanagementsystem.Controllers.ProfileController">
    <VBox layoutX="10.0" layoutY="11.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="592.0" prefWidth="160.0" styleClass="main_menu_container" stylesheets="@../Styles/Student.css">
       <AnchorPane prefHeight="650.0" prefWidth="185.0" styleClass="left_container" stylesheets="@../Styles/Student.css">
          <VBox layoutY="-10.0" prefHeight="367.0" prefWidth="205.0" styleClass="little_container" stylesheets="@../Styles/Student.css" AnchorPane.topAnchor="-10.0">
@@ -53,14 +53,14 @@
    </Label>
    <Label layoutX="429.0" layoutY="81.0" styleClass="header2" text="About Me" />
    <Line endX="245.66668701171875" endY="-7.62939453125E-6" layoutX="470.0" layoutY="100.0" startX="-273.0" startY="-7.62939453125E-6" styleClass="line" />
-   <Text layoutX="300.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="221" />
-   <Text layoutX="281.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="BCS" />
-   <Text layoutX="283.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Male" />
-   <Text layoutX="272.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Suprem@g.com" />
-   <Text layoutX="275.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="SupremKc" />
    <Label layoutX="233.0" layoutY="138.0" styleClass="text" text="Name:" />
    <Label layoutX="233.0" layoutY="158.0" styleClass="text" text="Student id:" />
    <Label layoutX="233.0" layoutY="179.0" styleClass="text" text="Faculty:" />
    <Label layoutX="233.0" layoutY="200.0" styleClass="text" text="Gender:" />
    <Label layoutX="234.0" layoutY="219.0" styleClass="text" text="Email:" />
+   <Label fx:id="namelbl" layoutX="277.0" layoutY="139.0" text="Suprem Kc" />
+   <Label fx:id="idlbl" layoutX="302.0" layoutY="158.0" text="1" />
+   <Label fx:id="facultylbl" layoutX="282.0" layoutY="180.0" text="BCS" />
+   <Label fx:id="genderlbl" layoutX="282.0" layoutY="200.0" text="Male" />
+   <Label fx:id="gmaillbl" layoutX="277.0" layoutY="219.0" text="suprem@g.com" />
 </AnchorPane>

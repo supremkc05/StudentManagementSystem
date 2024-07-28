@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fxml.Admin.AdminMenu">
-
+<AnchorPane prefHeight="550.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.studentmanagementsystem.studentmanagementsystem.Controllers.Admin.AdminMenuController">
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6967df" height="54.0" layoutY="-8.0" stroke="#6967df" strokeType="INSIDE" width="650.0" />
+   <Button fx:id="LogoutBtn" layoutX="524.0" layoutY="6.0" mnemonicParsing="false" onAction="#Logout" style="-fx-background-color: #C2C1F0;" text="logout" />
+   <Text layoutX="587.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin" />
+   <ImageView layoutX="21.0" layoutY="13.0">
+      <Image url="@../../Images/Image.png" />
+   </ImageView>
+   <Text layoutX="45.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Panal" />
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2c1f0" height="78.0" layoutX="29.0" layoutY="76.0" stroke="#c2c1f0" strokeType="INSIDE" width="191.0" />
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2c1f0" height="78.0" layoutX="29.0" layoutY="292.0" stroke="#c2c1f0" strokeType="INSIDE" width="191.0" />
+   <Label layoutX="29.0" layoutY="58.0" text="Student management" />
+   <Button fx:id="editStudents" layoutX="45.0" layoutY="115.0" mnemonicParsing="false" onAction="#editstudentBtnClicked" prefHeight="25.0" prefWidth="51.0" style="-fx-background-color: #6967df; -fx-border-radius: 6; -fx-underline: True; -fx-cursor: hand;" text="Edit" />
+   <Label layoutX="45.0" layoutY="86.0" text="Edit Students" />
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2c1f0" height="78.0" layoutX="29.0" layoutY="179.0" stroke="#c2c1f0" strokeType="INSIDE" width="191.0" />
+   <Label layoutX="29.0" layoutY="161.0" text="Teacher Management" />
+   <Button fx:id="teachereditbtn" layoutX="45.0" layoutY="218.0" mnemonicParsing="false" onAction="#teacherbtnclicked" prefHeight="25.0" prefWidth="51.0" style="-fx-background-color: #6967df; -fx-border-radius: 6; -fx-underline: True; -fx-cursor: hand;" text="Edit" />
+   <Label layoutX="29.0" layoutY="275.0" text="View Counselling Reports" />
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2c1f0" height="78.0" layoutX="252.0" layoutY="76.0" stroke="#c2c1f0" strokeType="INSIDE" width="191.0" />
+   <Label layoutX="252.0" layoutY="58.0" prefHeight="17.0" prefWidth="173.0" text="Admission Officer Management" />
+   <Button fx:id="EditAdmissionBtn" layoutX="266.0" layoutY="115.0" mnemonicParsing="false" onAction="#EditAdmissionOfficerBtnClicked" prefHeight="25.0" prefWidth="51.0" style="-fx-background-color: #6967df; -fx-border-radius: 6; -fx-underline: True; -fx-cursor: hand;" text="Edit" />
+   <Label layoutX="43.0" layoutY="193.0" text="Edit Teachers" />
+   <Button fx:id="councellingReportBtn" layoutX="37.0" layoutY="331.0" mnemonicParsing="false" onAction="#CouncellingreportbtnClickced" prefHeight="25.0" prefWidth="51.0" style="-fx-background-color: #6967df; -fx-border-radius: 6; -fx-underline: True; -fx-cursor: hand;" text="view" />
+   <Label layoutX="36.0" layoutY="302.0" text="View Reports" />
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2c1f0" height="78.0" layoutX="29.0" layoutY="399.0" stroke="#c2c1f0" strokeType="INSIDE" width="191.0" />
+   <Label layoutX="29.0" layoutY="382.0" text="View Reports/suggestion" />
+   <Button fx:id="reportsbtn" layoutX="37.0" layoutY="438.0" mnemonicParsing="false" onAction="#reportbtnlicked" prefHeight="25.0" prefWidth="51.0" style="-fx-background-color: #6967df; -fx-border-radius: 6; -fx-underline: True; -fx-cursor: hand;" text="view" />
+   <Label layoutX="36.0" layoutY="409.0" text="View Reports" />
+   <Label layoutX="266.0" layoutY="86.0" text="Edit Admission Officer" />
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2c1f0" height="78.0" layoutX="251.0" layoutY="178.0" stroke="#c2c1f0" strokeType="INSIDE" width="191.0" />
+   <Label layoutX="251.0" layoutY="160.0" prefHeight="17.0" prefWidth="173.0" text="Liabarian Management" />
+   <Button fx:id="libarianbtn" layoutX="265.0" layoutY="217.0" mnemonicParsing="false" onAction="#libarianbtnclicked" prefHeight="25.0" prefWidth="51.0" style="-fx-background-color: #6967df; -fx-border-radius: 6; -fx-underline: True; -fx-cursor: hand;" text="Edit" />
+   <Label layoutX="265.0" layoutY="188.0" text="Edit Libarian Management" />
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c2c1f0" height="78.0" layoutX="250.0" layoutY="291.0" stroke="#c2c1f0" strokeType="INSIDE" width="191.0" />
+   <Label layoutX="250.0" layoutY="274.0" text="View Extracurricular Forms Report" />
+   <Button fx:id="extrabtn" layoutX="258.0" layoutY="330.0" mnemonicParsing="false" onAction="#extarbtnclicked" prefHeight="25.0" prefWidth="51.0" style="-fx-background-color: #6967df; -fx-border-radius: 6; -fx-underline: True; -fx-cursor: hand;" text="view" />
+   <Label layoutX="257.0" layoutY="301.0" text="View Participants" />
 </AnchorPane>

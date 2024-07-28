@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="538.0" prefWidth="643.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.studentmanagementsystem.studentmanagementsystem.Controllers.Admin.CouncellingreportController">
+    <TableView fx:id="CouncellingReportsTable" layoutX="22.0" layoutY="151.0" prefHeight="260.0" prefWidth="437.0">
+      <columns>
+          <TableColumn fx:id="namecol" prefWidth="92.0" text="Name" />
+          <TableColumn fx:id="idcol" prefWidth="92.0" text="id" />
+          <TableColumn fx:id="problemcol" prefWidth="110.0" text="problem" />
+          <TableColumn fx:id="specifycol" minWidth="0.0" prefWidth="140.0" text="Specify the problem" />
+      </columns>
+    </TableView>
+    <Text layoutX="22.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Councelling Reports">
+        <font>
+          <Font name="Arial Black" size="32.0" />
+        </font>
+    </Text>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6967df" height="54.0" stroke="#6967df" strokeType="INSIDE" width="650.0" />
+    <Button fx:id="LogoutBtn" layoutX="524.0" layoutY="14.0" mnemonicParsing="false" onAction="#Logout" style="-fx-background-color: #C2C1F0;" text="logout" />
+    <Text layoutX="587.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin" />
+    <ImageView layoutX="21.0" layoutY="21.0">
+    </ImageView>
+    <Text layoutX="45.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Panal" />
+    <ImageView layoutX="22.0" layoutY="19.0">
+        <Image url="@../../Images/Image.png"/>
+    </ImageView>
+    <Button fx:id="backbtn" layoutX="407.0" layoutY="419.0" mnemonicParsing="false" onAction="#backbtnclicked" prefHeight="25.0" prefWidth="51.0" style="-fx-background-color: #C2C1F0;" text="Back" />
+</AnchorPane>

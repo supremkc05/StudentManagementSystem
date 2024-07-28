@@ -36,8 +36,8 @@
 .signup_form_container .Button{
     -fx-background-color: black;
     -fx-text-fill: white;
-    -fx-pref-width: 400;
-    -fx-pref-height: 30;
+    /*-fx-pref-width: 400;*/
+    /*-fx-pref-height: 30;*/
     -fx-font-size: 1.2em;
     -fx-alignment: center;
 }
@@ -66,4 +66,14 @@
 .error_label{
     -fx-text-fill: red;
     -fx-font-weight: bold;
+}
+.loginbtn{
+    -fx-background-color: transparent;
+    -fx-text-fill:#6967DF;
+    -fx-font-size: 1.2em;
+    -fx-font-weight: bold;
+}
+.loginbtn:hover{
+    -fx-cursor: hand;
+    -fx-underline: true;
 }

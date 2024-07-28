@@ -38,8 +38,8 @@ public class ViewsFactory {
         stage.setTitle("Schoolsync");
         stage.getIcons().add(new Image(getClass().getResourceAsStream("/Images/user-management.png")));
         stage.show();
+        stage.setResizable(false); // Disable resizing
         //open in same window
-
     } catch (Exception e) {
         e.printStackTrace(); // Log the exception to understand what went wrong
     }
@@ -51,6 +51,10 @@ public class ViewsFactory {
         loader.setController(studentController);
         createStage(loader);
     }
+      public void showAdmissionOfficerWindow() {
+         FXMLLoader loader = new FXMLLoader(getClass().getResource("/Fxml/AdmissionOfficer/Registration.fxml"));
+         createStage(loader);
+    }
 
   private void createStage(FXMLLoader loader) {
     try {
@@ -61,11 +65,28 @@ public class ViewsFactory {
         //icon for the stage
         stage.getIcons().add(new Image(getClass().getResourceAsStream("/Images/user-management.png")));
         stage.show();
+        stage.setResizable(false); // Disable resizing
     } catch (Exception e) {
-        e.printStackTrace(); // Log the exception to understand what went wrong
+        e.printStackTrace();        // Log the exception to understand what went wrong
     }
 }
     public void closeStage(Stage stage){
         stage.close();
     }
+
+    public void showAdminWindow() {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/Fxml/Admin/AdminMenu.fxml"));
+        createStage(loader);
+    }
+
+    public void showTeacherWindow() {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/Fxml/Teacher/TeacherDashboard.fxml"));
+    createStage(loader);
+    }
+
+public void showLibrarianWindow() {
+    // Correct the path if there's a typo or case sensitivity issue
+    FXMLLoader loader = new FXMLLoader(getClass().getResource("/Fxml/Libarian/LibrarianDashboard.fxml"));
+    createStage(loader);
+}
 }

@@ -20,7 +20,9 @@
     -fx-background-color: white;
     -fx-background-radius: 0 20 20 0;
     /*want dropshadow in one side of anchor pane*/-fx-effect: dropshadow(gaussian, #AAAAAA, 5, 0.3, 1, 0);
-    /*-fx-effect: d;*/
+}
+.viewbtn:hover{
+    -fx-cursor: hand;
 }
 
 

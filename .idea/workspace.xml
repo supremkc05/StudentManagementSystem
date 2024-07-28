@@ -5,31 +5,102 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f965a2ce-3d44-4701-8c4b-9bbe54af55dd" name="Changes" comment="students panal half done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/ProfileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/ExtracurriculumController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/Questioncontroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Profile.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/QuestionForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Styles/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AO_login_info.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addedbooks.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/answers of question 1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/counselling_details.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/librarian_login_info.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Admin/AddAdmissionOfficerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Admin/AddLibrarianController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Admin/AddTeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Admin/AddstudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Admin/AdmissionOfficerMgmt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Admin/CouncellingreportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Admin/ExtracurriculumReports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Admin/LibarianMgMtController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Admin/ReportViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Admin/StudentMgmtController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Admin/TeacherMgmtController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/AdmissionOffiicer/AdmissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/AdmissionOffiicer/AdmissionOfficerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/AdmissionOffiicer/ReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/AdmissionOffiicer/ViewRecordsStudentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Teacher/CouncellingReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Teacher/QuestionFormReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Teacher/StaffProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Teacher/TeacherDashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/libarian/AddBooksController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/libarian/LibarianProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/libarian/LibrarianController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/libarian/LibrarianReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Models/AdmissionOfficer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Models/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Models/CouncellingModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Models/Extracurricular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Models/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Models/ReportModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Models/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Models/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/AddStudent.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/Addlibrarian.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/Addteacher.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/AdmissionOfficer.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/AdmissionOfficerMgmt.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/Councellingreport.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/ExtracurricularView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/LibarianMgmt.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/ReportSuggestionView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/Student management.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/Teachermgmt.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/AdmissionOfficer/AdmissionOfficerProfile.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/AdmissionOfficer/Registration.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/AdmissionOfficer/Report.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/AdmissionOfficer/Viewrecords.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Libarian/AddBooks.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Libarian/LibrarianDashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Libarian/ReportLibarian.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Libarian/librarianProfile.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Teacher/CouncellingReport.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Teacher/QuestionFormReport.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Teacher/StaffProfile.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Teacher/TeacherDashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Teacher/TeacherReport.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Styles/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teacher_login_info.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credentials.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Admin/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Models/Libarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Admin/AdminMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Admin/AdminMenuController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/ProfileController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/SignupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/SignupController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/CouncellingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/CouncellingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/DashboardConrtoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/DashboardConrtoller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/ExtraCurricularActivitiesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/ExtracurriculumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/ExtracurriculumController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/OtherActivitiesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/OtherActivitiesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/Questioncontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/Questioncontroller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/ReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/ReportController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Students/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Teacher/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Controllers/Teacher/TeacherReportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Uses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Uses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Views/ViewsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/studentmanagementsystem/studentmanagementsystem/Views/ViewsFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/AdminMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Admin/AdminMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Profile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Profile.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Signup.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Signup.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Student/CouncellingForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/CouncellingForm.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Student/Dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/Dashboard.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Student/Extracurriculum.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/Extracurriculum.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Student/OtherActivities.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/OtherActivities.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Student/QuestionForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/QuestionForm.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Student/ReportSuggestion.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/ReportSuggestion.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Student/StudentMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Student/StudentMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Teacher/TeacherMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Teacher/TeacherMenu.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Styles/Dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Styles/Dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Styles/Extra.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Styles/Extra.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Styles/Report.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Styles/Report.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Styles/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Styles/Login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Styles/Signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Styles/Signup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Styles/Student.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Styles/Student.css" afterDir="false" />
     </list>
@@ -87,18 +158,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.App.executor": "Run",
+    "Application.App.executor": "Debug",
     "Downloaded.Files.Path.Enabled": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowGitHub Copilot Chat.ShowToolbar": "false",
     "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Merging master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/supre/Desktop/javafx/StudentManagementSystem/src/main/java/com/studentmanagementsystem/studentmanagementsystem",
+    "last_opened_file_path": "C:/Users/supre/Desktop/GroupAssignmentAP",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -113,10 +185,18 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.studentmanagementsystem.studentmanagementsystem.Controllers.Admin" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\supre\Desktop\javafx\StudentManagementSystem\src\main\java\com\studentmanagementsystem\studentmanagementsystem" />
+      <recent name="C:\Users\supre\Desktop\javafx\StudentManagementSystem\src\main\resources\Fxml\Admin" />
+      <recent name="C:\Users\supre\Desktop\javafx\StudentManagementSystem\src\main\resources\Fxml\Libarian" />
+      <recent name="C:\Users\supre\Desktop\javafx\StudentManagementSystem\src\main\java\com\studentmanagementsystem\studentmanagementsystem\Controllers\libarian" />
+      <recent name="C:\Users\supre\Desktop\javafx\StudentManagementSystem\src\main\resources\Fxml\Teacher" />
+      <recent name="C:\Users\supre\Desktop\javafx\StudentManagementSystem\src\main\java\com\studentmanagementsystem\studentmanagementsystem\Controllers\Teacher" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\supre\Desktop\javafx\StudentManagementSystem\src\login credientials" />
       <recent name="C:\Users\supre\Desktop\javafx\StudentManagementSystem\src\main\resources\Images" />
       <recent name="C:\Users\supre\Desktop\javafx\StudentManagementSystem\src\main\resources\Fxml\Student" />
     </key>
@@ -211,6 +291,58 @@
       <workItem from="1720978271819" duration="4511000" />
       <workItem from="1721010355863" duration="1050000" />
       <workItem from="1721025128517" duration="15418000" />
+      <workItem from="1721056509788" duration="4259000" />
+      <workItem from="1721093634745" duration="864000" />
+      <workItem from="1721094717844" duration="870000" />
+      <workItem from="1721095675791" duration="10000" />
+      <workItem from="1721095737566" duration="677000" />
+      <workItem from="1721100576631" duration="212000" />
+      <workItem from="1721111897115" duration="1276000" />
+      <workItem from="1721113199391" duration="3301000" />
+      <workItem from="1721118177809" duration="3974000" />
+      <workItem from="1721182621389" duration="12000" />
+      <workItem from="1721183478046" duration="2695000" />
+      <workItem from="1721190332504" duration="58000" />
+      <workItem from="1721191462798" duration="17000" />
+      <workItem from="1721203447077" duration="9074000" />
+      <workItem from="1721235689694" duration="740000" />
+      <workItem from="1721276958350" duration="261000" />
+      <workItem from="1721304727616" duration="209000" />
+      <workItem from="1721352848064" duration="583000" />
+      <workItem from="1721371217760" duration="4914000" />
+      <workItem from="1721377654109" duration="764000" />
+      <workItem from="1721378471433" duration="39000" />
+      <workItem from="1721378579813" duration="9854000" />
+      <workItem from="1721402207557" duration="14690000" />
+      <workItem from="1721447264110" duration="6086000" />
+      <workItem from="1721454153155" duration="6034000" />
+      <workItem from="1721460389860" duration="9162000" />
+      <workItem from="1721470382923" duration="453000" />
+      <workItem from="1721470875485" duration="3740000" />
+      <workItem from="1721485746647" duration="576000" />
+      <workItem from="1721486342643" duration="13335000" />
+      <workItem from="1721525555723" duration="8425000" />
+      <workItem from="1721535472065" duration="241000" />
+      <workItem from="1721535732180" duration="2545000" />
+      <workItem from="1721539233648" duration="3151000" />
+      <workItem from="1721546415257" duration="11109000" />
+      <workItem from="1721558065362" duration="45000" />
+      <workItem from="1721560592970" duration="416000" />
+      <workItem from="1721576608902" duration="1346000" />
+      <workItem from="1721578707354" duration="31000" />
+      <workItem from="1721579314189" duration="599000" />
+      <workItem from="1721581111588" duration="1901000" />
+      <workItem from="1721619056702" duration="81000" />
+      <workItem from="1721621025828" duration="2201000" />
+      <workItem from="1721624189730" duration="513000" />
+      <workItem from="1721624739821" duration="36000" />
+      <workItem from="1721661174714" duration="388000" />
+      <workItem from="1721662110057" duration="94000" />
+      <workItem from="1721882256701" duration="267000" />
+      <workItem from="1721883572564" duration="84000" />
+      <workItem from="1722130955792" duration="11000" />
+      <workItem from="1722135810451" duration="878000" />
+      <workItem from="1722146145398" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="changed xa hai aali aali">
       <option name="closed" value="true" />
@@ -256,14 +388,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed xa hai aali aali" />
     <MESSAGE value="students panal half done" />
-    <option name="LAST_COMMIT_MESSAGE" value="students panal half done" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/module-info.java</url>
-          <line>6</line>
+          <line>7</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
@@ -274,6 +406,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="import javafx.scene.control.TableColumn;&#10;import javafx.scene.control.TableView;" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

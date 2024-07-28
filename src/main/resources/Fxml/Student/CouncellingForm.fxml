@@ -3,7 +3,7 @@
 <?import java.lang.String?>
 <?import javafx.scene.control.Accordion?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
@@ -31,26 +31,20 @@
          <Font size="13.0" />
       </font>
    </Label>
-   <Label layoutX="216.0" layoutY="311.0" style="-fx-font-weight: bold;" text="Detailed Description of the problem">
+   <Label layoutX="220.0" layoutY="238.0" style="-fx-font-weight: bold;" text="Detailed Description of the problem">
       <font>
          <Font size="13.0" />
       </font>
    </Label>
    <Label layoutX="219.0" layoutY="90.0" text="Full name:" />
-   <TextField fx:id="fullname_field" layoutX="310.0" layoutY="85.0" styleClass="input_field" stylesheets="@../../Styles/Extra.css" />
+   <TextField fx:id="fullname" layoutX="310.0" layoutY="85.0" styleClass="input_field" stylesheets="@../../Styles/Extra.css" />
    <Label layoutX="484.0" layoutY="90.0" text="Student id:" />
-   <TextField fx:id="student_id" layoutX="565.0" layoutY="85.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 5;" />
+   <TextField fx:id="stdid" layoutX="565.0" layoutY="85.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 5;" />
    <Label layoutX="220.0" layoutY="123.0" text="Phone number: " />
-   <TextField fx:id="phonenumber_fld" layoutX="310.0" layoutY="118.0" prefHeight="28.0" prefWidth="130.0" styleClass="input_field" stylesheets="@../../Styles/Extra.css" />
+   <TextField fx:id="phnnumber" layoutX="310.0" layoutY="118.0" prefHeight="28.0" prefWidth="130.0" styleClass="input_field" stylesheets="@../../Styles/Extra.css" />
    <Label layoutX="484.0" layoutY="123.0" text="Faculty:" />
-   <TextField fx:id="faculty_fld" layoutX="565.0" layoutY="118.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 5;" />
-   <TextArea fx:id="detailed_fld" layoutX="217.0" layoutY="334.0" prefHeight="146.0" prefWidth="498.0" style="-fx-border-color: black; -fx-border-radius: 8;" />
-   <CheckBox fx:id="academic_" layoutX="216.0" layoutY="190.0" mnemonicParsing="false" text=" Academic issue" />
-   <CheckBox fx:id="MHC_issue" layoutX="216.0" layoutY="266.0" mnemonicParsing="false" text=" Mental Health concern" />
-   <CheckBox fx:id="SR_issue" layoutX="216.0" layoutY="247.0" mnemonicParsing="false" text=" Social/Relationship issue" />
-   <CheckBox fx:id="Career_guideness" layoutX="216.0" layoutY="228.0" mnemonicParsing="false" text=" Career guideness" />
-   <CheckBox fx:id="personal_issue" layoutX="216.0" layoutY="209.0" mnemonicParsing="false" text=" Personal issue" />
-   <CheckBox fx:id="other_fld" layoutX="216.0" layoutY="285.0" mnemonicParsing="false" text=" others(specify)" />
+   <TextField fx:id="faculty" layoutX="565.0" layoutY="118.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 5;" />
+   <TextArea fx:id="detailedfld" layoutX="221.0" layoutY="261.0" prefHeight="146.0" prefWidth="498.0" style="-fx-border-color: black; -fx-border-radius: 8;" />
    <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="160.0" styleClass="main_menu_container" stylesheets="@../../Styles/Student.css">
       <AnchorPane prefHeight="650.0" prefWidth="185.0" styleClass="left_container" stylesheets="@../../Styles/Student.css">
          <VBox layoutY="119.33333333333333" prefHeight="239.0" prefWidth="160.0" styleClass="little_container" stylesheets="@../../Styles/Student.css" AnchorPane.topAnchor="0.0">
@@ -60,7 +54,7 @@
             <Text fill="#363636" strokeType="OUTSIDE" strokeWidth="0.0" text="SchoolSync" wrappingWidth="125.05334270000458" />
             <VBox prefHeight="249.0" prefWidth="200.0" styleClass="main_container" stylesheets="@../../Styles/Student.css">
                <Button fx:id="Dashboard_btn" mnemonicParsing="false" onAction="#dashboardBtnClicked" styleClass="left_container" text="Dashboard" />
-               <Button fx:id="Counselling_btn" mnemonicParsing="false" onAction="#councellingformclicked" styleClass="left_container" text="Councelling form" />
+               <Button fx:id="Counselling_btn" mnemonicParsing="false" onAction="#councellingformclicked" styleClass="left_container" text="Counselling form" />
                <Button fx:id="Extracurricular_btn" mnemonicParsing="false" onAction="#extracurriculumbtnclicked" styleClass="left_container" text="Extra Curriculum" />
                <Line endX="52.62620544433594" endY="0.4142006039619446" startX="-100.0" />
                <Button fx:id="profile_btn" mnemonicParsing="false" onAction="#ProfileBtnClicked" style="-fx-background-color: #6967DF;" styleClass="alt_menu_btn" stylesheets="@../../Styles/Student.css" text="Profile" />
@@ -84,5 +78,7 @@
       </AnchorPane>
       <Accordion />
    </VBox>
-   <Button layoutX="426.0" layoutY="497.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="115.0" styleClass="Button" stylesheets="@../../Styles/Extra.css" text="Submit" />
+   <Button fx:id="submitbtn" layoutX="430.0" layoutY="430.0" mnemonicParsing="false" onAction="#submitbuttonclick" prefHeight="25.0" prefWidth="115.0" styleClass="Button1" stylesheets="@../../Styles/Extra.css" text="Submit" />
+   <Label fx:id="errorlbl" layoutX="224.0" layoutY="407.0" style="-fx-font-weight: bold;" textFill="#d90d0d" />
+   <ChoiceBox fx:id="problemchoice" layoutX="219.0" layoutY="182.0" prefHeight="34.0" prefWidth="167.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 6;" />
 </AnchorPane>

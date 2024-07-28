@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?-->
+
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -19,7 +21,7 @@
       </ImageView>
       <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SchoolSync" wrappingWidth="126.38671875" />
    </VBox>
-   <VBox layoutX="266.0" layoutY="107.33333333333333" prefHeight="247.0" prefWidth="254.0" style="-fx-background-radius: 5; -fx-background-color: white;" styleClass="login_form_container" stylesheets="@../Styles/Login.css" AnchorPane.rightAnchor="71.0" AnchorPane.topAnchor="107.0">
+   <VBox layoutX="266.0" layoutY="107.33333333333333" prefHeight="253.0" prefWidth="254.0" style="-fx-background-radius: 5; -fx-background-color: white;" styleClass="login_form_container" stylesheets="@../Styles/Login.css" AnchorPane.rightAnchor="71.0" AnchorPane.topAnchor="107.0">
       <Label styleClass="Label" stylesheets="@../Styles/Login.css" text="Enter Your Email">
          <VBox.margin>
             <Insets />
@@ -29,17 +31,19 @@
             <Insets />
          </VBox.margin></TextField>
       <Label styleClass="Label" text="Password" />
-      <TextField fx:id="client_pass_field" prefHeight="25.0" prefWidth="294.0" styleClass="input_field" stylesheets="@../Styles/Login.css" />
+      <PasswordField fx:id="client_pass_field" styleClass="input_field" />
       <Label styleClass="Label" text="Login As" />
       <ChoiceBox id="#choice-box-popup-menu" fx:id="account_selector" prefHeight="28.0" prefWidth="173.0" styleClass="account_selector" stylesheets="@../Styles/Login.css" />
       <Button fx:id="login_btn" mnemonicParsing="false" style="-fx-font-style: inter;" styleClass="Button" text="Login " textFill="#6967df" />
-      <Label id="#choice_prompt_text" fx:id="error_label" styleClass="error_label" stylesheets="@../Styles/Login.css"  />
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <Text layoutX="96.0" layoutY="11.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 15;" text="or" wrappingWidth="28.666666666666742" />
+         <Button fx:id="signup_btn" alignment="TOP_LEFT" layoutX="104.0" layoutY="-11.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="76.0" style="-fx-text-fill: #6967df; -fx-font-weight: bold; -fx-font-size: 15; -fx-text-alignment: left; -fx-background-color: transparent;" styleClass="Button2" text="Signup" />
+      </AnchorPane>
+      <Label id="#choice_prompt_text" fx:id="error_label" styleClass="error_label" stylesheets="@../Styles/Login.css" />
    </VBox>
    <Label layoutX="305.0" layoutY="79.0" prefHeight="35.0" prefWidth="145.0" styleClass="welcome_label" text="Welcome Back!" textFill="#6967df" />
    <ImageView fitHeight="72.0" fitWidth="76.0" layoutX="340.0" layoutY="7.0">
       <Image url="@../Images/icon.png" />
    </ImageView>
-   <Text layoutX="364.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 15;" text="or" wrappingWidth="28.666666666666742" />
-   <Button fx:id="signup_btn" alignment="TOP_LEFT" layoutX="374.0" layoutY="355.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="76.0" style="-fx-text-fill: #6967df; -fx-font-weight: bold; -fx-font-size: 15; -fx-text-alignment: left; -fx-background-color: transparent;" styleClass="Button2" text="Signup" />
 <!--   <FontAwesomeIconView />-->
 </AnchorPane>

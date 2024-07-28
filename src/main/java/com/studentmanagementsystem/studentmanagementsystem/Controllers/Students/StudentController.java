@@ -1,11 +1,13 @@
 package com.studentmanagementsystem.studentmanagementsystem.Controllers.Students;
-
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import java.io.IOException;
 import java.net.URL;
+import java.util.Optional;
 import java.util.ResourceBundle;
 import static com.studentmanagementsystem.studentmanagementsystem.Uses.changeScene;
 
@@ -37,7 +39,17 @@ public class StudentController implements Initializable {
     }
 
     public void LogoutBtnClicked(ActionEvent event) throws IOException{
+//        changeScene(event, "/Fxml/Login.fxml", "login");
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setTitle("Logout Confirmation");
+        alert.setHeaderText(null);
+        alert.setContentText("Are you sure you want to logout?");
+
+        Optional<ButtonType> action = alert.showAndWait();
+
+    if (action.isPresent() && action.get() == ButtonType.OK) {
         changeScene(event, "/Fxml/Login.fxml", "login");
+    }
     }
 
     public void ReportBtnClicked(ActionEvent event) throws IOException{

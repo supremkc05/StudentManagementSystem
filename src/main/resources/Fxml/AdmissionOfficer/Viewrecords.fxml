@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="605.0" prefWidth="720.0" style="-fx-background-color: white;" stylesheets="@../../Styles/table.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.studentmanagementsystem.studentmanagementsystem.Controllers.AdmissionOffiicer.ViewRecordsStudentsController">
+   <VBox layoutX="14.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="160.0" styleClass="main_menu_container" stylesheets="@../../Styles/Student.css">
+      <AnchorPane prefHeight="595.0" prefWidth="197.0" styleClass="left_container" stylesheets="@../../Styles/Student.css">
+         <VBox layoutY="-6.666666666666667" prefHeight="365.0" prefWidth="205.0" styleClass="little_container" stylesheets="@../../Styles/Student.css" AnchorPane.topAnchor="-7.0">
+            <ImageView fitHeight="57.0" fitWidth="62.0">
+               <Image url="@../../Images/user-management.png" />
+            </ImageView>
+            <Text fill="#363636" strokeType="OUTSIDE" strokeWidth="0.0" text="SchoolSync" wrappingWidth="125.05334270000458" />
+            <VBox prefHeight="249.0" prefWidth="200.0" styleClass="main_container" stylesheets="@../../Styles/Student.css">
+               <Button fx:id="registration" mnemonicParsing="false" onAction="#StudentRegistrationBtnClicked" styleClass="left_container" text="Student Registration" />
+               <Button fx:id="records" mnemonicParsing="false" onAction="#StudentrecordsBtnClicked" styleClass="left_container" text="Student Records" />
+               <Line endX="52.62620544433594" endY="0.4142006039619446" startX="-100.0" />
+               <Button fx:id="profile_btn" mnemonicParsing="false" onAction="#ProfileBtnClicked" style="-fx-background-color: #6967DF;" styleClass="alt_menu_btn" stylesheets="@../../Styles/Student.css" text="Profile" />
+               <Button fx:id="logout_btn" mnemonicParsing="false" onAction="#LogoutBtnClicked" style="-fx-background-color: #6967DF;" stylesheets="@../../Styles/Student.css" text="Logout">
+                  <styleClass>
+                     <String fx:value="alt_menu_btn" />
+                     <String fx:value="Text" />
+                  </styleClass>
+               </Button>
+            </VBox>
+         </VBox>
+         <VBox layoutX="40.0" layoutY="436.0" prefHeight="145.0" prefWidth="138.0" styleClass="report_container">
+            <Label prefHeight="34.0" prefWidth="153.0" styleClass="Label" text="Use this to report any error.">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="Report Suggestion/bug?" wrappingWidth="137.859375" />
+            <Button fx:id="Report_btn" mnemonicParsing="false" onAction="#ReportBtnClicked" styleClass="Button" text="Report" />
+         </VBox>
+      </AnchorPane>
+      <Accordion />
+   </VBox>
+   <Label layoutX="374.0" layoutY="23.0" prefHeight="34.0" prefWidth="160.0" styleClass="label4" stylesheets="@../../Styles/table.css" text="Students Details">
+      <font>
+         <Font size="18.0" />
+      </font></Label>
+   <TableView fx:id="studentstable" layoutX="216.0" layoutY="78.0" prefHeight="287.0" prefWidth="489.0">
+      <columns>
+         <TableColumn fx:id="idCol" prefWidth="44.79998779296875" text="Id" />
+         <TableColumn fx:id="nameCol" prefWidth="127.99996948242188" text="Name" />
+         <TableColumn fx:id="emailCol" prefWidth="140.0" text="Email" />
+         <TableColumn fx:id="Faculty" prefWidth="84.7999267578125" text="Faculty" />
+         <TableColumn fx:id="gender" prefWidth="90.0" text="gender" />
+      </columns>
+   </TableView>
+</AnchorPane>

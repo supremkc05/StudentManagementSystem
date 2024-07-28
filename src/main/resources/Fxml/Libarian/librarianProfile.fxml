@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="605.0" prefWidth="700.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.studentmanagementsystem.studentmanagementsystem.Controllers.libarian.LibarianProfile">
+    <VBox layoutX="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="160.0" styleClass="main_menu_container" stylesheets="@../../Styles/Student.css">
+        <AnchorPane prefHeight="613.0" prefWidth="189.0" styleClass="left_container" stylesheets="@../../Styles/Student.css">
+            <VBox prefHeight="357.0" prefWidth="205.0" styleClass="little_container" stylesheets="@../../Styles/Student.css" AnchorPane.topAnchor="0.0">
+                <ImageView fitHeight="57.0" fitWidth="62.0">
+                    <Image url="@../../Images/user-management.png" />
+                </ImageView>
+                <Text fill="#363636" strokeType="OUTSIDE" strokeWidth="0.0" text="SchoolSync" wrappingWidth="125.05334270000458" />
+                <VBox prefHeight="249.0" prefWidth="200.0" styleClass="main_container" stylesheets="@../../Styles/Student.css">
+                    <Button fx:id="Dashboard_btn" mnemonicParsing="false" onAction="#dashboardbtnclicked" styleClass="left_container" text="Dashboard" />
+                    <Line endX="52.62620544433594" endY="0.4142006039619446" startX="-100.0" />
+                    <Button fx:id="profile_btn" mnemonicParsing="false" onAction="#profilebtnclicked" style="-fx-background-color: #6967DF;" styleClass="alt_menu_btn" stylesheets="@../../Styles/Student.css" text="Profile" />
+                    <Button fx:id="logout_btn" mnemonicParsing="false" onAction="#logoutbtnClicked" style="-fx-background-color: #6967DF;" stylesheets="@../../Styles/Student.css" text="Logout">
+                        <styleClass>
+                            <String fx:value="alt_menu_btn" />
+                            <String fx:value="Text" />
+                        </styleClass>
+                    </Button>
+                </VBox>
+            </VBox>
+            <VBox layoutX="40.0" layoutY="436.0" prefHeight="145.0" prefWidth="138.0" styleClass="report_container">
+                <Label prefHeight="34.0" prefWidth="153.0" styleClass="Label" text="Use this to report any error.">
+                    <font>
+                        <Font size="10.0" />
+                    </font>
+                </Label>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Text" text="Report Suggestion/bug?" wrappingWidth="137.859375" />
+                <Button fx:id="Report_btn" mnemonicParsing="false" onAction="#Reportbtnclicked" styleClass="Button" text="Report" />
+            </VBox>
+        </AnchorPane>
+        <Accordion />
+    </VBox>
+    <Text fill="#363636" layoutX="410.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Profile" wrappingWidth="79.99999999999994">
+        <font>
+          <Font size="24.0" />
+        </font>
+    </Text>
+    <Text fill="#363636" layoutX="402.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About me" wrappingWidth="125.05334270000458">
+        <font>
+          <Font name="System Bold" size="14.0" />
+        </font>
+    </Text>
+    <Line endX="282.99993896484375" layoutX="426.0" layoutY="133.0" startX="-221.6000213623047" />
+    <Label layoutX="242.0" layoutY="158.0" styleClass="text" text="Name:" />
+    <Label layoutX="246.0" layoutY="185.0" styleClass="text" text="ID:" />
+    <Label layoutX="242.0" layoutY="211.0" styleClass="text" text="Phone:" />
+    <Label layoutX="243.0" layoutY="237.0" styleClass="text" text="Email:" />
+    <Label fx:id="name" layoutX="295.0" layoutY="158.0" text="Shyam Adhikari" />
+    <Label fx:id="phone" layoutX="295.0" layoutY="211.0" text="9876543210" />
+    <Label fx:id="id" layoutX="295.0" layoutY="185.0" text="2" />
+    <Label fx:id="email" layoutX="295.0" layoutY="237.0" text="shyam@lib.com" />
+</AnchorPane>

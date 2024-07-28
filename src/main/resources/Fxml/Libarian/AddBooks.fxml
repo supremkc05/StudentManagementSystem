@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.studentmanagementsystem.studentmanagementsystem.Controllers.libarian.AddBooksController">
+   <Text fx:id="user_name" layoutX="167.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="username" text="New Book" wrappingWidth="115.20000000000005">
+      <font>
+         <Font size="24.0" />
+      </font>
+   </Text>
+   <Label layoutX="121.0" layoutY="103.0" prefHeight="17.0" prefWidth="61.0" text="BookId:" />
+   <TextField fx:id="bookid" layoutX="183.0" layoutY="99.0" prefHeight="25.0" prefWidth="133.0" styleClass="input_field" />
+   <Text layoutX="121.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Label1" text="Enter Book Details." wrappingWidth="206.08984375">
+      <font>
+         <Font name="System Italic" size="14.0" />
+      </font>
+   </Text>
+   <Label layoutX="121.0" layoutY="144.0" prefHeight="17.0" prefWidth="61.0" text="Book TItle:" />
+   <TextField fx:id="booktitle" layoutX="183.0" layoutY="140.0" prefHeight="25.0" prefWidth="133.0" styleClass="input_field" />
+   <Label layoutX="121.0" layoutY="185.0" prefHeight="17.0" prefWidth="61.0" text="Author:" />
+   <TextField fx:id="author" layoutX="183.0" layoutY="181.0" prefHeight="25.0" prefWidth="133.0" styleClass="input_field" />
+   <Label layoutX="121.0" layoutY="228.0" prefHeight="17.0" prefWidth="61.0" text="Genre:" />
+   <TextField fx:id="genre" layoutX="183.0" layoutY="224.0" prefHeight="25.0" prefWidth="133.0" styleClass="input_field" />
+   <ButtonBar layoutX="244.0" layoutY="349.0" stylesheets="/Styles/Login.css" />
+   <Button fx:id="addbtn" layoutX="194.0" layoutY="300.0" mnemonicParsing="false" onAction="#Addbtnclicked" prefHeight="25.0" prefWidth="61.0" style="-fx-background-color: #6967DF;" styleClass="Button" text="ADD" textFill="WHITE" />
+   <Label layoutX="121.0" layoutY="269.0" prefHeight="17.0" prefWidth="61.0" text="Status" />
+   <TextField fx:id="status" layoutX="183.0" layoutY="265.0" prefHeight="25.0" prefWidth="133.0" styleClass="input_field" />
+</AnchorPane>
